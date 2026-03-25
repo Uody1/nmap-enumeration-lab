@@ -27,3 +27,17 @@ Used to perform a stealthier scan by sending SYN packets without completing the 
 ```bash
 nmap -sT 10.66.155.228
 nmap -sS 10.66.155.228
+
+---
+
+## 🌐 Target Environment
+
+The target IP address (10.66.155.228) was provided by the TryHackMe lab environment. The machine was hosted in a controlled virtual network designed for practicing network enumeration and security analysis.
+
+---
+
+## 🧠 Key Takeaways
+
+- Nmap can be used to identify open ports and services on a target system  
+- Different scan types (-sT vs -sS) provide similar results using different techniques  
+- Open ports can indicate potential entry points for further security assessment  
