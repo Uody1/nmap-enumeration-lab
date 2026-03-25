@@ -30,6 +30,20 @@ nmap -sS 10.66.155.228
 
 ---
 
+## 📊 Findings
+
+The scan identified the following open TCP ports:
+
+- 7/tcp — echo  
+- 9/tcp — discard  
+- 13/tcp — daytime  
+- 17/tcp — qotd  
+- 22/tcp — ssh  
+- 8008/tcp — http  
+
+Total open TCP ports: **6**
+---
+
 ## 🌐 Target Environment
 
 The target IP address (10.66.155.228) was provided by the TryHackMe lab environment. The machine was hosted in a controlled virtual network designed for practicing network enumeration and security analysis.
